@@ -16,15 +16,11 @@ Quick start
         "y_swagger_ui",
     ]
 
-2. Configure Y_SWAGGER_UI in settings.py
+2. Configure Y_SWAGGER_UI in settings.py. You can use openapi_spec_example.yaml in repository root dir as an example. For OpenAPI specification, see https://swagger.io/specification/::
 
     Y_SWAGGER_UI = {
         'OPENAPI_SPEC_FILE': BASE_DIR / 'openapi_spec.yaml'      # OpenAPI spec yaml file
     }
-
-    You can use openapi_spec_example.yaml in repository root dir as an example.
-
-    For OpenAPI specification, see https://swagger.io/specification/
 
 3. Include the URLconf in your project urls.py like this::
 
